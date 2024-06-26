@@ -3,18 +3,63 @@
   }
   
   body {
-    background-color: gray;
+    background-color: rgb(59, 218, 178);
     font-family: system-ui, sans-serif;
     margin: 0;
   }
   
+
+  /* NAVBAR */
   nav {
     background-color: white;
     padding: 8px 16px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
+  #destinations {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    gap: 1rem;
+  }
+
+  #actions {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    gap: 1rem;
   }
   
+
+   /* HERO */
+
+  #hero {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 3.5rem;
+
+  }
+
+  #trending {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+  }
+
+  #subnav {
+    display: flex;
+    justify-content: space-between;
+  }
+
   p {
     margin: 0;
+    text-align: center;
   }
   
   section {
@@ -48,11 +93,24 @@
     padding: 0 24px;
   }
   
+
+  /* MAIN */
+
   main {
     background-color: white;
     padding: 32px 72px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 2rem;
   }
   
+  .card {
+    width: 220px;
+  }
+
   nav button {
     background-color: #ea4c89;
     border-radius: 8px;
@@ -68,9 +126,15 @@
     background-color: gray;
     border-radius: 8px;
   }
+
+  
   
   .card-footer {
     font-size: 14px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
   }
   
   .card-footer * {
