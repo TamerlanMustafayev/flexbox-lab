@@ -106,10 +106,10 @@
     flex-wrap: wrap;
     gap: 2rem;
   }
-  
+/*   
   .card {
     width: 220px;
-  }
+  } */
 
   nav button {
     background-color: #ea4c89;
